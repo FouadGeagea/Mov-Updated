@@ -1,0 +1,55 @@
+   h2{
+     position: relative;
+       color: white;
+       margin-top: 50px;
+       left: 50px;
+       font-family: 'Redressed',serif;
+   }
+      .swiper-wrapper{
+       position: relative;
+       left: 30px;
+     display: flex;
+     margin: 3%;
+     }
+   .Modal{
+           color: black;
+       font-size: 20px;
+       font-family: 'Montaga';
+       font-weight: bold;
+       line-height: 1.5;
+       text-align: left;   }
+   
+   .btn{
+       cursor: pointer;  }
+
+   .item {
+           flex: 0 0 19.7%;
+       text-align: center;
+       margin: 0 2px;
+       transition: transform 300ms ease 100ms;
+       background-color: black;  
+       height: 100px;
+       font-family: 'Montaga';
+       font-size: 20px;
+       cursor: pointer;
+      color: white;
+     }
+
+     .item1{ 
+       position: relative;
+       width: 100% ;
+       height: 100%;
+         }
+   
+     .swiper-wrapper:hover .item {
+       transform: translateX(-25%);   }
+   
+     .item:hover ~ .item {
+         transform: translateX(25%);     }
+
+    .item:hover {
+       transform: scale(1.25) !important;
+     }
+   
+     
+    
